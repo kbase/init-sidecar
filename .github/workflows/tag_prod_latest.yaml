@@ -4,6 +4,7 @@ name: Tag Prod Latest
   pull_request:
     branches:
     - master
+    - main
     types:
     - closed
 jobs:
