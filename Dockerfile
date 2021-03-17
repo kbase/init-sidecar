@@ -18,6 +18,11 @@ RUN \
 	vim-tiny \
     wget
 
+# Install wait-for-it.sh for dependency mapping
+RUN \
+ cd /usr/local/bin; \
+ wget -q https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh \
+
 # Install Mongo
 RUN \
  mkdir -p /data/db/tmp && cd /data/db/tmp/ \
