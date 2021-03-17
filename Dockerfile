@@ -8,6 +8,7 @@ RUN \
 	curl \
     git \
 	less \ 
+	lsof \
 	mongo-tools \
 	net-tools \
 	ssh \
