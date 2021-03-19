@@ -3,10 +3,11 @@ FROM bitnami/minideb:latest
 # Install Base Packages
 RUN \
  install_packages \
-    ansible \
+    	ansible \
 	bash \
 	curl \
-    git \
+	dnsutils \
+    	git \
 	less \ 
 	lsof \
 	mongo-tools \
@@ -16,7 +17,7 @@ RUN \
 	tzdata \
 	unzip \
 	vim-tiny \
-    wget
+    	wget
 
 # Install wait-for-it.sh for dependency mapping
 RUN \
