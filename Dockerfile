@@ -25,6 +25,12 @@ RUN \
  wget -q https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh; \
  chmod +x /usr/local/bin/wait-for-it.sh
 
+# Install minio mc admin utility
+RUN \
+ cd /usr/local/bin; \
+ wget https://dl.min.io/client/mc/release/linux-amd64/mc; \
+ chmod +x mc
+
 # Install Mongo
 RUN \
  mkdir -p /data/db/tmp && cd /data/db/tmp/; \
