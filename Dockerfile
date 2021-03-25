@@ -27,7 +27,7 @@ RUN \
 # Install minio mc admin utility
 RUN \
  cd /usr/local/bin; \
- wget https://dl.min.io/client/mc/release/linux-amd64/mc;
+ wget https://dl.min.io/client/mc/release/linux-amd64/mc; \
  chmod +x mc
 
 # Install Mongo
