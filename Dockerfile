@@ -13,6 +13,7 @@ RUN \
 	mongo-tools \
 	net-tools \
 	netcat \
+	p7zip-full \
 	ssh \
 	tzdata \
 	unzip \
