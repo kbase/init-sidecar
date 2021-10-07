@@ -14,6 +14,7 @@ RUN \
 	net-tools \
 	netcat \
 	p7zip-full \
+	screen \
 	ssh \
 	tzdata \
 	unzip \
