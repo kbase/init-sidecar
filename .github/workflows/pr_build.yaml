@@ -4,6 +4,8 @@ name: Build Image on PR
   pull_request:
     branches:
     - develop
+    - main
+    - master
     types:
     - opened
     - synchronize
