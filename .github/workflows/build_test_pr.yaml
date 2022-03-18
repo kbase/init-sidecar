@@ -18,7 +18,7 @@ jobs:
         ref: "${{ github.event.pull_request.head.sha }}"
       uses: actions/checkout@v2
     - name: Build and Push to Packages
-      if: github.event.pull_request.draft == false &&
+      if: github.event.pull_request.draft == false
       env:
         PR: "${{ github.event.pull_request.number }}"
         SHA: "${{ github.event.pull_request.head.sha }}"
