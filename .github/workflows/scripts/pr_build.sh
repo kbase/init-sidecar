@@ -11,7 +11,7 @@ export MY_APP=$(echo $(echo "${GITHUB_REPOSITORY}" | awk -F / '{print $2}')"-dev
 if $GITHUB_BASE_REF = "develop"; then
   export MY_APP=$(echo $(echo "${GITHUB_REPOSITORY}" | awk -F / '{print $2}')"-develop")
 elif $GITHUB_BASE_REF = "main" || $GITHUB_BASE_REF = "master"; then
-  export MY_APP=$(echo "${GITHUB_REPOSITORY}" | awk -F / '{print $2}'
+  export MY_APP=$(echo "${GITHUB_REPOSITORY}" | awk -F / '{print $2}')
 else
   echo "Target branch must be develop, main, or master";
   exit 1
