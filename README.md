@@ -1,5 +1,5 @@
 # init-sidecar
-Docker config for the KBase `init-sidecar` and `install` services. Used in Rancher 2.
+Docker config for the KBase `init-sidecar` and `install` services. Used in Rancher 2 (Kubernetes).
 
 ## Current Status
 
