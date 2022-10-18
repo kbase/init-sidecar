@@ -10,7 +10,7 @@ RUN \
     	git \
 	less \ 
 	lsof \
-	mongo-tools \
+#	mongo-tools \
 	net-tools \
 	netcat \
 	p7zip-full \
